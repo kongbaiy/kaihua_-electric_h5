@@ -1,0 +1,381 @@
+.banner {
+    height: 2.15rem;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .banner-pagination {
+    bottom: 0.12rem;
+}
+
+.banner .banner-pagination .swiper-pagination-bullet {
+    opacity: 1;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #fff;
+}
+
+.banner .banner-pagination .swiper-pagination-bullet-active {
+    background-color: #004DA5;
+}
+
+/* 产品中心 */
+.product {
+    padding: 0.35rem 0.13rem;
+}
+
+.product-list {
+    overflow: hidden;
+    margin-top: 0.25rem;
+}
+
+.product-list-item {
+    box-sizing: border-box;
+    float: left;
+    width: 1.7rem;
+    border: 1px solid #E6E6E6;
+    font-size: 0;
+}
+
+.product-list-itemImg {
+    width: 100%;
+    height: 1.35rem;
+    object-fit: cover;
+}
+
+.product-list-itemTitle {
+    padding: 0 0.08rem;
+    height: 0.35rem;
+    background-color: #F0F0F0;
+    font-size: 0.11rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.35rem;
+    color: #404040;
+}
+
+.product-list-item:nth-child(2n) {
+    margin-left: 0.09rem;
+}
+
+.product-list-item:nth-child(n + 3) {
+    margin-top: 0.1rem;
+}
+
+.product-more-btn {
+    margin-top: 0.35rem;
+}
+
+/* 关于我们 */
+.about-us {
+    padding: 0.35rem 0.13rem;
+    background-image: url(../imgs/750-1100_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-us .module-title,
+.about-us .module-english {
+    color: #fff;
+}
+
+.about-us .module-title::after {
+    background-color: #fff;
+}
+
+.about-us-content {
+    overflow: hidden;
+    margin-top: 0.25rem;
+    padding: 0.2rem 0.15rem;
+    background-color: #fff;
+    border-radius: 0.08rem;
+    -webkit-border-radius: 0.08rem;
+    -moz-border-radius: 0.08rem;
+    -ms-border-radius: 0.08rem;
+    -o-border-radius: 0.08rem;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.2rem;
+    color: #404040;
+}
+
+.about-us-contentImg {
+    float: left;
+    margin-right: 0.15rem;
+    width: 1.7rem;
+}
+
+.about-us-service {
+    overflow: hidden;
+    padding: 0.25rem 0.13rem;
+}
+
+.about-us-serviceItem {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 1rem;
+}
+
+.about-us-serviceItem:nth-child(2n) {
+    border-left: 1px solid #CCCCCC;
+}
+
+.about-us-serviceItem:nth-child(n + 3) {
+    border-top: 1px solid #CCCCCC;
+}
+
+.about-us-serviceItemImg {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.about-us-serviceItemTitle {
+    position: relative;
+    margin-top: 0.1rem;
+    padding-top: 0.12rem;
+    font-size: 0.13rem;
+    font-family: Source Han Sans CN;
+    font-weight: 700;
+    color: #262626;
+}
+
+.about-us-serviceItemTitle::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: 0.2rem;
+    height: 0.01rem;
+    background-color: #004DA5;
+}
+
+/* 我的优势 */
+.our-strengths {
+    padding: 0.35rem 0.13rem;
+    background-image: url(../imgs/750-1061_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.our-strengths-list {
+    margin-top: 0.25rem;
+}
+
+.our-strengths-listItem {
+    height: 0.85rem;
+    background-color: #fff;
+}
+
+.our-strengths-listItem:nth-child(n + 2) {
+    margin-top: 0.15rem;
+}
+
+.our-strengths-listItemImgBox {
+    width: 0.79rem;
+    text-align: center;
+}
+
+.our-strengths-listItemImg {
+    height: 0.35rem;
+}
+
+.our-strengths-listItemInfo {
+    box-sizing: border-box;
+    padding-left: 0.15rem;
+    padding-right: 0.13rem;
+    width: 2.7rem;
+    border-left: 1px solid #004DA5;
+}
+
+.our-strengths-listItemTitle {
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 700;
+    line-height: 0.27rem;
+    color: #004DA5;
+}
+
+.our-strengths-listItemText {
+    font-size: 0.11rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.19rem;
+    color: #404040;
+    
+}
+
+/* 热销产品 */
+.hot-products {
+    padding: 0.35rem 0.13rem;
+}
+
+.hot-products-list {
+    margin-top: 0.25rem;
+}
+
+.hot-products-listItem {
+    border: 1px solid #E6E6E6;
+    font-size: 0;
+}
+
+.hot-products-listItem:nth-child(n + 2) {
+    margin-top: 0.15rem;
+}
+
+.hot-products-listItemImg {
+    width: 100%;
+    height: 2.18rem;
+    object-fit: cover;
+}
+
+.hot-products-listItemTitle {
+    padding: 0 0.15rem;
+    height: 0.45rem;
+    background-color: #F0F0F0;
+    font-size: 0.15rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.45rem;
+    text-align: center;
+    color: #404040;
+}
+
+.hot-products-moreBtn {
+    margin-top: 0.35rem;
+}
+
+/* 新闻动态 */
+.news {
+    padding: 0.35rem 0.13rem;
+    background-color: #F7F7F7;
+}
+
+.news-list {
+    margin-top: 0.05rem;
+}
+
+.news-list-item {
+    padding-top: 0.2rem;
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.news-list-itemImg {
+    width: 1.2rem;
+    height: 1rem;
+    object-fit: cover;
+}
+
+.news-list-itemInfo {
+    margin-left: 0.13rem;
+    height: 1rem;
+}
+
+.news-list-itemTitle {
+    font-size: 0.15rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    line-height: 0.26rem;
+    color: #262626;
+}
+
+.news-list-itemText {
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.21rem;
+    color: #999999;
+}
+
+.news-list-itemDate {
+    margin-top: 0.09rem;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.21rem;
+    color: #999999;
+}
+
+.news-btn {
+    margin-top: 0.35rem;
+}
+
+/* 在线预约 */
+.online-booking {
+    padding: 0.26rem 0.13rem 0.55rem;
+    background-image: url(../imgs/750-1100_bg_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.online-booking-form {
+    padding: 0.35rem 0.2rem;
+    background-color: #fff;
+    border-radius: 0.08rem;
+    -webkit-border-radius: 0.08rem;
+    -moz-border-radius: 0.08rem;
+    -ms-border-radius: 0.08rem;
+    -o-border-radius: 0.08rem;
+}
+
+.online-booking-input {
+    box-sizing: border-box;
+    margin-top: 0.1rem;
+    padding: 0 0.1rem;
+    width: 100%;
+    height: 0.45rem;
+    border: 1px solid #E6E6E6;
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #333;
+}
+
+.online-booking-input::placeholder,
+.online-booking-textarea::placeholder {
+    color: #ccc;
+}
+
+.online-booking-input:first-of-type {
+    margin-top: 0.25rem;
+}
+
+.online-booking-textareaBox {
+    box-sizing: border-box;
+    margin-top: 0.1rem;
+    padding: 0.1rem;
+    height: 1.5rem;
+    border: 1px solid #E6E6E6;
+}
+
+.online-booking-textarea {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #333;
+}
+
+.online-booking-submitBtn {
+    margin-top: 0.15rem;
+    border-radius: 0.04rem;
+    -webkit-border-radius: 0.04rem;
+    -moz-border-radius: 0.04rem;
+    -ms-border-radius: 0.04rem;
+    -o-border-radius: 0.04rem;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app"> 
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="format-detection" content="telephone=no,email=no,adress=no"/>
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="common/css/reset.css"/>
+    <link rel="stylesheet" href="common/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="common/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/news.css"/>
+    <script src="common/js/rem.js"></script>
+    <script src="common/js/ios.js"></script>
+    <script src="common/js/custom-elements-es5-adapter.min.js"></script>
+    <script src="common/js//webcomponents-bundle.js"></script>
+    <script src="common/js/webcomponents-loader.min.js"></script>
+    <script src="./components/navbar/index.js"></script>
+	<script src="./components/footerbar/index.js"></script>
+</head>
+<body>
+	<!-- 顶部导航栏 -->
+    <top-navbar></top-navbar>
+    
+    <div class="swiper-container banner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="imgs/750-430.jpg" alt="" class="banner-img" />
+            </div>
+            <div class="swiper-slide">
+                <img src="imgs/750-430.jpg" alt="" class="banner-img" />
+            </div>
+        </div>
+    </div>
+
+    <div class="c-f-cb nav">
+        <div class="nav-item nav-item_active">企业动态</div>
+        <div class="nav-item">行业资讯</div>
+        <div class="nav-item">常见问题</div>
+    </div>
+
+    <!-- 企业动态/行业资讯 -->
+	<div id="consulting-list" class="nav-content consulting-list">
+		<a href="news-detail.html?pageIndex=2" class="consulting-list-item">
+			<img src="imgs/240-200.jpg" alt="" class="consulting-list-itemImg" />
+			<div class="consulting-list-itemInfo">
+		        <p class="consulting-list-itemTitle">直流高压发生器之前有些技术...</p>
+		        <p class="consulting-list-itemText"> 直流高压发生器应用PWM脉宽调制技术和大功率IGBT器件，采用电压大反...</p>
+		        <div class="c-f-cb consulting-list-itemRow">
+                    <span class="consulting-list-itemDate">2020-01-01</span>
+                    <span class="consulting-list-origin">来源：动态</span>
+                </div>
+			</div>
+		</a>
+		<a href="news-detail.html?pageIndex=2" class="consulting-list-item">
+			<img src="imgs/240-200.jpg" alt="" class="consulting-list-itemImg" />
+			<div class="consulting-list-itemInfo">
+		        <p class="consulting-list-itemTitle">直流高压发生器之前有些技术...</p>
+		        <p class="consulting-list-itemText"> 直流高压发生器应用PWM脉宽调制技术和大功率IGBT器件，采用电压大反...</p>
+		        <div class="c-f-cb consulting-list-itemRow">
+                    <span class="consulting-list-itemDate">2020-01-01</span>
+                    <span class="consulting-list-origin">来源：动态</span>
+                </div>
+			</div>
+		</a>
+        <a href="news-detail.html?pageIndex=2" class="consulting-list-item">
+			<img src="imgs/240-200.jpg" alt="" class="consulting-list-itemImg" />
+			<div class="consulting-list-itemInfo">
+		        <p class="consulting-list-itemTitle">直流高压发生器之前有些技术...</p>
+		        <p class="consulting-list-itemText"> 直流高压发生器应用PWM脉宽调制技术和大功率IGBT器件，采用电压大反...</p>
+		        <div class="c-f-cb consulting-list-itemRow">
+                    <span class="consulting-list-itemDate">2020-01-01</span>
+                    <span class="consulting-list-origin">来源：动态</span>
+                </div>
+			</div>
+		</a>
+	</div>
+
+    <!-- 常见问题 -->
+    <div id="common-problem" class="nav-content consulting-list">
+		<a href="news-detail.html?pageIndex=2" class="consulting-list-item">
+			<div class="consulting-list-itemInfo">
+		        <p class="consulting-list-itemTitle">直流高压发生器之前有些技术</p>
+		        <p class="consulting-list-itemText"> 直流高压发生器应用PWM脉宽调制技术和大功率IGBT器件，采用电压大反...</p>
+		        <div class="c-f-cb consulting-list-itemRow">
+                    <span class="consulting-list-itemDate">2020-01-01</span>
+                    <span class="consulting-list-origin">来源：动态</span>
+                </div>
+			</div>
+		</a>
+        <a href="news-detail.html?pageIndex=2" class="consulting-list-item">
+			<div class="consulting-list-itemInfo">
+		        <p class="consulting-list-itemTitle">直流高压发生器之前有些技术</p>
+		        <p class="consulting-list-itemText"> 直流高压发生器应用PWM脉宽调制技术和大功率IGBT器件，采用电压大反...</p>
+		        <div class="c-f-cb consulting-list-itemRow">
+                    <span class="consulting-list-itemDate">2020-01-01</span>
+                    <span class="consulting-list-origin">来源：动态</span>
+                </div>
+			</div>
+		</a>
+	</div>
+
+    <div class="c-paging">
+        <div class="c-paging-next">上一页</div>
+        <div class="c-paging-page">2/100</div>
+        <div class="c-paging-prev">下一页</div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer-bar></footer-bar>
+    
+    <script src="common/js/jquery-1.8.3.min.js"></script>
+    <script src="common/js/swiper-bundle.min.js"></script>
+    <script src="js/news.js"></script>
+</body>
+</html>
