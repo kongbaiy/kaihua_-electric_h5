@@ -80,16 +80,15 @@ header {
 
 .nav-item_active {
 	position: relative;
-	
 	border-color: #E6E6E6;
 	background-color: #FFFFFF;
 }
 
-.nav-item_active:first-child {
+.nav-item:first-child {
 	border-left: none;
 }
 
-.nav-item_active:last-child {
+.nav-item:last-child {
 	border-right: none;
 }
 
