@@ -1,0 +1,169 @@
+html {
+    background-color: #F0F0F0;
+}
+
+header {
+	background-color: #FFFFFF;
+}
+
+.current-banner-img {
+	width: 100%;
+	height: 2.15rem;
+	object-fit: cover;
+}
+
+.banner-box {
+	padding: 0.15rem 0.13rem;
+}
+
+.banner {
+	margin: 0 0.2rem;
+    height: 0.7rem;
+}
+
+.banner .swiper-slide {
+	box-sizing: border-box;
+	font-size: 0;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner_active {
+    border: 2px solid #004DA5;
+}
+
+.banner-navigation-next,
+.banner-navigation-prev {
+	width: 0.15rem;
+	height: 0.18rem;
+	outline: none;
+}
+
+.main-header {
+	margin-top: 0.1rem;
+	background-color: #fff;
+}
+
+.title {
+	padding: 0.2rem 0.13rem;
+	font-size: 0.2rem;
+	font-weight: bold;
+    color: #000000;
+}
+
+.nav {
+	height: 0.6rem;
+	background-color: #f5f5f5;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	white-space: nowrap;
+	font-size: 0;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 0 0.1rem;
+	min-width: 0.72rem;
+	height: 0.61rem;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: transparent;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.6rem;
+	color: #333333;
+}
+
+.nav-item_active {
+	position: relative;
+	
+	border-color: #E6E6E6;
+	background-color: #FFFFFF;
+}
+
+.nav-item_active:first-child {
+	border-left: none;
+}
+
+.nav-item_active:last-child {
+	border-right: none;
+}
+
+.nav-item_active::after {
+	content: "";
+	position: absolute;
+	top: -0.01rem;
+	left: 0;
+	width: 100%;
+	height: 0.02rem;
+	background-color: #004DA5;
+}
+
+.nav-content {
+	padding: 0.2rem 0.13rem;
+	font-size: 0.14rem;
+	color: #666666;
+}
+
+/* 产品中心 */
+.product {
+	margin-top: 0.1rem;
+    padding: 0.35rem 0.13rem;
+	background-color: #fff;
+}
+
+.product-header-title {
+	font-size: 0.2rem;
+	font-family: Source Han Sans CN;
+	font-weight: 700;
+	color: #262626;
+}
+
+.product-header-text {
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #999;
+}
+
+.product-list {
+    overflow: hidden;
+	margin-top: 0.25rem;
+}
+
+.product-list-item {
+    box-sizing: border-box;
+    float: left;
+    width: 1.7rem;
+    border: 1px solid #E6E6E6;
+    font-size: 0;
+}
+
+.product-list-itemImg {
+    width: 100%;
+    height: 1.35rem;
+    object-fit: cover;
+}
+
+.product-list-itemTitle {
+    padding: 0 0.08rem;
+    height: 0.35rem;
+    background-color: #F0F0F0;
+    font-size: 0.11rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.35rem;
+    color: #404040;
+}
+
+.product-list-item:nth-child(2n) {
+    margin-left: 0.09rem;
+}
+
+.product-list-item:nth-child(n + 3) {
+    margin-top: 0.1rem;
+}

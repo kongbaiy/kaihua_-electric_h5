@@ -124,7 +124,7 @@
 					<a href="home.html?pageIndex=0">网站首页</a>
 				</li>
 				<li class="popup-list-item">
-					<a href="news.html?pageIndex=1">产品中心</a>
+					<a href="product.html?pageIndex=1">产品中心</a>
 				</li>
 				<li class="popup-list-item">
 					<a href="news.html?pageIndex=2">新闻列表</a>

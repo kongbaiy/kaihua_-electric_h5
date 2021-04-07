@@ -1,0 +1,98 @@
+html {
+    background-color: #F0F0F0;
+}
+
+.banner {
+    height: 2.15rem;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-type {
+	margin-top: 0.1rem;
+	padding: 0.35rem 0.13rem;
+	background-color: #fff;
+}
+
+.product-type-title {
+	font-size: 0.18rem;
+	font-family: Source Han Sans CN;
+	color: #000000;
+}
+
+.product-type-nav {
+	overflow: hidden;
+}
+
+.product-type-navItem {
+	float: left;
+	box-sizing: border-box;
+	margin-top: 0.15rem;
+	margin-right: 0.2rem;
+	padding: 0 0.1rem;
+	height: 0.3rem;
+	border-bottom: 1px solid transparent;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.3rem;
+	color: #5f5e5e;
+}
+
+.product-type-navItem_active {
+	border-color: #004DA5;
+	font-weight: 700;
+	color: #004DA5;
+}
+
+/* 产品中心 */
+.product {
+	margin-top: 0.1rem;
+    padding: 0.35rem 0.13rem;
+	background-color: #fff;
+}
+
+.product-list {
+    overflow: hidden;
+}
+
+.product-list-item {
+    box-sizing: border-box;
+    float: left;
+    width: 1.7rem;
+    border: 1px solid #E6E6E6;
+    font-size: 0;
+}
+
+.product-list-itemImg {
+    width: 100%;
+    height: 1.35rem;
+    object-fit: cover;
+}
+
+.product-list-itemTitle {
+    padding: 0 0.08rem;
+    height: 0.35rem;
+    background-color: #F0F0F0;
+    font-size: 0.11rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.35rem;
+    color: #404040;
+}
+
+.product-list-item:nth-child(2n) {
+    margin-left: 0.09rem;
+}
+
+.product-list-item:nth-child(n + 3) {
+    margin-top: 0.1rem;
+}
+
+.product .product-paging {
+	margin-bottom: 0;
+}
