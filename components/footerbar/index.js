@@ -187,9 +187,9 @@
 					</a>
 				</div>
 				<div class="footer-navbar-item">
-					<a href="join-in.html?pageIndex=4">
+					<a href="product.html?pageIndex=1">
 						<img src="imgs/navbar2_icon.png" class="footer-navbar-itemIcon" />
-						<p class="footer-navbar-itemText">合作加盟</p>
+						<p class="footer-navbar-itemText">产品中心</p>
 					</a>
 				</div>
 				<div class="footer-navbar-item">
@@ -241,9 +241,8 @@
 
 			if(match_page_index[page_index] || match_page_index[page_index] == 0) {
 				let current_index = match_page_index[page_index];
+				
 				navbar_el[current_index].className = 'footer-navbar-item footer-navbar-item_active';
-
-				console.log(current_index);
 				navbar_icon_el[current_index].setAttribute('src', navbar_icons[current_index].activePath);
 			}
 
