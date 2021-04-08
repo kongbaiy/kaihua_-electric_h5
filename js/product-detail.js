@@ -39,9 +39,35 @@
 			itemRoleDescriptionMessage: 'slider',
 		}
 	});
+	
+	// navContent
+	var navContentIndex = 0;
+	var navContent = new Swiper('.nav-content', {
+		autoplayDisableOnInteraction: false,
+		speed: 0,
+	    on: {
+			slideChangeTransitionEnd() {
+				navContentIndex = this.realIndex;
+			}
+		},
+		a11y: {
+			prevSlideMessage: 'Previous slide',
+			nextSlideMessage: 'Next slide',
+			firstSlideMessage: 'This is the first slide',
+			lastSlideMessage: 'This is the last slide',
+			paginationBulletMessage: 'Go to slide ' + (navContentIndex + 1),
+			notificationClass: 'swiper-notification',
+			containerMessage: 'This is a swiper',
+			containerRoleDescriptionMessage: 'banner', //aria-role-description
+			itemRoleDescriptionMessage: 'slider',
+		}
+	});
 
 	$('.nav-item').on('click', function() {
+		var index = $(this).index();
+		
 		$('.nav-item').removeClass('nav-item_active');
 		$(this).addClass('nav-item_active');
+		 navContent.slideToLoop(index);
 	});
 })(window, document);

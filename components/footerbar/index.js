@@ -182,7 +182,7 @@
 			<div class="footer-navbar">
 				<div class="footer-navbar-item">
 					<a href="home.html?pageIndex=0">
-						<img src="imgs/active_navbar_icon.png" class="footer-navbar-itemIcon" />
+						<img src="imgs/navbar_icon.png" class="footer-navbar-itemIcon" />
 						<p class="footer-navbar-itemText">首页</p>
 					</a>
 				</div>
@@ -230,7 +230,7 @@
 			const navbar_icon_el = this._root.querySelectorAll('.footer-navbar-itemIcon');
 			const match_page_index = {
 				'0': 0,
-				'4': 1
+				'1': 1
 			};
 			const navbar_icons = [
 				{ path: 'imgs/navbar_icon.png',  activePath: 'imgs/active_navbar_icon.png' },
